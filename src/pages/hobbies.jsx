@@ -6,9 +6,19 @@ export default function Hobbies(){
         <>
             <div className="hobbies">
                 <div className="section">
-                    <h2>Aficiones y Pasatiempos</h2>
+                    <h2>Intereses y Aficiones</h2>
+
+                    <h3>Intereses</h3>
                     <p>
-                        h
+                        Diseño. <br />
+                        Taekwondo-Do.
+                    </p>
+
+                    <h3>Aficiones</h3>
+                    <p>
+                        Lectura. <br />
+                        Fotografía. <br />
+                        Actividad física.
                     </p>
                 </div>
             </div>
