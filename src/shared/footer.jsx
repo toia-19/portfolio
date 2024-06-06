@@ -26,9 +26,11 @@ export default function Footer() {
                 <ol>
                     <li className="crumb"><a href="">Inicio</a></li>
                     <li className="crumb"><a href="">Más Información</a></li>
-                    <Button variant="text" color="secondary" size="small" onClick={handleClickOpen}>
-                        Contacto
-                    </Button>
+                    <li className="crumb">
+                        <Button variant="text" color="secondary" size="small" onClick={handleClickOpen}>
+                            <a>Contacto</a>
+                        </Button>
+                    </li>
                     <li className="crumb">Copyright © 2024 RN, Argentina</li>
                 </ol>
             </footer>
